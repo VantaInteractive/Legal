@@ -1,0 +1,45 @@
+---
+layout: index
+---
+
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+    <head>
+        <meta charset="UTF-8" />
+        <!-- Webpage title -->
+        <title id="home">{{ site.t[page.lang].home }} | Vanta Interactive</title>
+        <!-- Website description -->
+        <meta name="description" content="{{ page.description }}">
+        <!-- Viewport width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {% include head.html %}
+
+        <!-- Open Graph meta tags -->
+        <meta property="og:title" content="{{ site.t[page.lang].home }} | Vanta Interactive">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:image" content="https://raw.githubusercontent.com/vantainteractive/vantainteractive.com/main/favicon/vi-logo-big-bk.png">
+        <meta property="og:url" content="https://legal.vantainteractive.com/">
+        <meta property="og:type" content="website">
+    </head>
+<body class="bg-header fade-in">
+        {% include header.html %}
+
+        {% include notice-container.html %}
+
+        <div class="articles-container">
+        {% assign posts=site.posts | where:"lang", page.lang %}
+        {% for post in site.posts %}
+        <div class="link">
+        <div class="row">
+            <a href="{{ post.url }}">
+                <p class="article-title rem1-5 white monospace semibold">{{ post.title }}</p>
+            </a>
+        </div>
+        </div>
+        {% endfor %}
+        </div>
+
+        {% include footer.html %}
+</body>
+</html>

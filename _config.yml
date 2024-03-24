@@ -1,0 +1,23 @@
+# Jekyll Config
+
+title: Legal | Vanta Interactive
+email: business.vantainteractive@gmail.com
+description: Official website for Vanta Interactive, the indie game, software and web development studio from Romania.
+baseurl: ""
+url: "https://legal.vantainteractive.com"
+twitter_username: 
+github_username:  VantaInteractive
+
+lang: en
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+include:
+  - _includes
+  - _layouts
+  - _sass
+  - _data
+  - js

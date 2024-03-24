@@ -1,0 +1,220 @@
+/* fonts.css */
+/* (C) alextecplayz 2023 */
+
+@font-face {font-family: 'Blaec'; src: url(../fonts/blaec/Blaec.ttf);}
+@font-face {font-family: 'Blaec Italic'; src: url(../fonts/blaec/BlaecItalic.otf)}
+.blaec {font-family: 'Blaec', sans-serif; font-style: normal;}
+.blaecitalic {font-family: 'Blaec Italic', sans-serif; font-style: italic;}
+
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-BoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-ExtraLight.ttf') format('truetype'); font-weight: 200; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-ExtraLightItalic.ttf') format('truetype'); font-weight: 200; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Light.ttf') format('truetype'); font-weight: 300; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-LightItalic.ttf') format('truetype'); font-weight: 300; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Italic.ttf') format('truetype'); font-weight: 400; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-SemiBoldItalic.ttf') format('truetype'); font-weight: 600; font-style: italic;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-Thin.ttf') format('truetype'); font-weight: 100; font-style: normal;} */
+/* @font-face {font-family: 'IBM Plex Mono'; src: url('../fonts/PlexMono/IBMPlexMono-ThinItalic.ttf') format('truetype'); font-weight: 100; font-style: italic;} */
+
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoBold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoBoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoRegular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Space Mono'; src: url('../fonts/SpaceMono/SpaceMonoItalic.ttf') format('truetype'); font-weight: 400; font-style: italic;}
+
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansBold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansBoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic;}
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansItalic.ttf') format('truetype'); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansMedium.ttf') format('truetype'); font-weight: 500; font-style: normal;}
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansMediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic;}
+@font-face {font-family: 'DM Sans'; src: url('../fonts/DMSans/DmSansRegular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Black.ttf') format('truetype'); font-weight: 900; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-ExtraBold.ttf') format('truetype'); font-weight: 800; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-ExtraLight.ttf') format('truetype'); font-weight: 200; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Light.ttf') format('truetype'); font-weight: 300; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal;} 
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-SemiBold.ttf') format('truetype'); font-weight: 600; font-style: normal;}
+@font-face {font-family: 'Outfit'; src: url('../fonts/Outfit/Outfit-Thin.ttf') format('truetype'); font-weight: 100; font-style: normal;}
+
+@font-face {font-family: 'Bebas Neue'; src: url(../fonts/BebasNeue/BebasNeue-Regular.ttf);}
+@font-face {font-family: 'Techna Sans'; src: url(../fonts/TechnaSans-Regular.otf)}
+@font-face {font-family: 'Cascadia Code'; src: url(../fonts/CascadiaCode/CascadiaCode.ttf);}
+
+@font-face {font-family: 'Pixeloid'; src: url(../fonts/Pixeloid/PixeloidMono.ttf); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Pixeloid'; src: url(../fonts/Pixeloid/PixeloidSans.ttf); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Pixeloid'; src: url(../fonts/Pixeloid/PixeloidSansBold.ttf); font-weight: 700; font-style: normal;}
+
+@font-face {font-family: 'FAT'; src: url(../fonts/FAT/FREEFATFONT-Regular.otf); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'FAT'; src: url(../fonts/FAT/FREEFATFONT-Slanted.otf); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Molot'; src: url(../fonts/Molot/Molot.otf); font-weight: 400; font-style: normal;}
+
+@font-face {font-family: 'Kiloton'; src: url(../fonts/kiloton/KILOTON1.TTF); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Kiloton'; src: url(../fonts/kiloton/KILOTON2.TTF); font-weight: 400; font-style: italic;}
+@font-face {font-family: 'Kiloton Condensed'; src: url(../fonts/kiloton/KILOTON3.TTF); font-weight: 400; font-style: normal;}
+@font-face {font-family: 'Kiloton Condensed'; src: url(../fonts/kiloton/KILOTON4.TTF); font-weight: 400; font-style: italic;}
+
+.molot, .fat, .bebasneue, .techna, .kiloton, .kilotonco, .cascadia, .outfit, .dm-sans, .pixeloid, .monospace, .italic, .hover-italic:hover, .oblique, .hover-oblique:hover, .underline, .overline, .wavy, .dashed, .dotted, .thin, .regular, .medium, .semibold, .bold, .centered, .ltr, .rtl, .column, .column-reverse, .row, .row-reverse, .justify-start, .justify-end, .relative, .absolute, .fixed, .rem0-5, .rem0-75, .rem1, .rem1-15, .rem1-5, .rem2, .rem2-25, .rem2-5, .rem3, .rem3-5, .rem4, .rem4-5, .rem5 {transition: 0.3s;}
+
+.molot {font-family: 'Molot', sans-serif;}
+.fat {font-family: 'FAT', sans-serif;}
+.bebasneue {font-family: 'Bebas Neue', sans-serif;}
+.techna {font-family: 'Techna Sans', sans-serif;}
+.cascadia {font-family: 'Cascadia Code';}
+.outfit {font-family: 'Outfit', sans-serif;}
+.dm-sans {font-family: 'DM Sans', sans-serif;}
+.monospace {font-family: 'Space Mono'; line-height: 1.375rem;}
+.pixeloid {font-family: 'Pixeloid'; line-height: 1.75rem;}
+.kiloton {font-family: 'Kiloton';}
+.kilotonco {font-family: 'Kiloton Condensed';}
+.italic {font-style: italic;}
+.hover-italic:hover {font-style: italic;}
+.oblique {font-style: oblique;}
+.hover-oblique:hover {font-style: oblique;}
+.underline {text-decoration: underline;}
+.overline {text-decoration: overline;}
+.wavy {text-decoration: wavy;}
+.dashed {text-decoration: dashed;}
+.dotted {text-decoration: dotted;}
+.thin {font-weight: 300;}
+.regular {font-weight: 400;}
+.medium {font-weight: 500;}
+.semibold {font-weight: 600;}
+.bold {font-weight: 700;}
+.centered {justify-content: center;}
+.ltr {direction: ltr;}
+.rtl {direction: rtl;}
+.column {flex-direction: column;}
+.column-reverse {flex-direction: column-reverse;}
+.row {flex-direction: row;}
+.row-reverse {flex-direction: row-reverse;}
+.justify-start {justify-content: flex-start;}
+.justify-end {justify-content: flex-end;}
+.relative {position: relative;}
+.absolute {position: absolute;}
+.fixed {position: fixed;}
+
+.line-height-rem1 {line-height: 1rem;}
+.line-height-rem2 {line-height: 2rem;}
+.line-height-rem3 {line-height: 3rem;}
+
+.rem0-5 {font-size: 0.5rem;}
+.rem0-75 {font-size: 0.75rem;}
+.rem1 {font-size: 1rem;}
+.rem1-15 {font-size: 1.15rem;}
+.rem1-25 {font-size: 1.25rem;}
+.rem1-5 {font-size: 1.5rem;}
+.rem2 {font-size: 2rem;}
+.rem2-25 {font-size: 2.25rem;}
+.rem2-5 {font-size: 2.5rem;}
+.rem3 {font-size: 3rem;}
+.rem3-5 {font-size: 3.5rem;}
+.rem4 {font-size: 4rem;}
+.rem4-5 {font-size: 4.5rem;}
+.rem5 {font-size: 5rem;}
+.rem10 {font-size: 10rem;}
+.rem15 {font-size: 15rem;}
+.rem20 {font-size: 20rem;}
+.rem25 {font-size: 25rem;}
+
+@media screen and (max-width: 1500px) and ( min-width: 1250px) {
+    .rem0-5 {font-size: 0.25rem;}
+    .rem0-75 {font-size: 0.5rem;}
+    .rem1 {font-size: 0.75rem;}
+    .rem1-15 {font-size: 1rem;}
+    .rem1-25 {font-size: 1.25rem;}
+    .rem1-5 {font-size: 1.15rem;}
+    .rem2 {font-size: 1.5rem;}
+    .rem2-25 {font-size: 2.25rem;}
+    .rem2-5 {font-size: 2rem;}
+    .rem3 {font-size: 2.5rem;}
+    .rem3-5 {font-size: 3rem;}
+    .rem4 {font-size: 3.5rem;}
+    .rem4-5 {font-size: 4rem;}
+    .rem5 {font-size: 4.5rem;}}
+
+@media screen and (max-width: 1250px) and ( min-width: 1170px) {
+    .rem0-5 {font-size: 0.15rem;}
+    .rem0-75 {font-size: 0.25rem;}
+    .rem1 {font-size: 0.5rem;}
+    .rem1-15 {font-size: 0.75rem;}
+    .rem1-25 {font-size: 1.25rem;}
+    .rem1-5 {font-size: 1rem;}
+    .rem2 {font-size: 1.15rem;}
+    .rem2-25 {font-size: 2.25rem;}
+    .rem2-5 {font-size: 1.5rem;}
+    .rem3 {font-size: 2rem;}
+    .rem3-5 {font-size: 2.5rem;}
+    .rem4 {font-size: 3rem;}
+    .rem4-5 {font-size: 3.5rem;}
+    .rem5 {font-size: 4rem;}}
+
+@media screen and (max-width: 1170px) and (min-width: 950px) {
+    .rem0-5 {font-size: 0.10rem;}
+    .rem0-75 {font-size: 0.15rem;}
+    .rem1 {font-size: 0.25rem;}
+    .rem1-15 {font-size: 0.65rem;}
+    .rem1-25 {font-size: 1.25rem;}
+    .rem1-5 {font-size: 0.75rem;}
+    .rem2 {font-size: 1rem;}
+    .rem2-25 {font-size: 2.25rem;}
+    .rem2-5 {font-size: 1.15rem;}
+    .rem3 {font-size: 1.5rem;}
+    .rem3-5 {font-size: 2rem;}
+    .rem4 {font-size: 2.5rem;}
+    .rem4-5 {font-size: 3rem;}
+    .rem5 {font-size: 3.5rem;}}
+
+@media screen and (max-width: 950px) and (min-width: 725px) {
+    .rem0-5 {font-size: 0.65rem;}
+    .rem0-75 {font-size: 0.75rem;}
+    .rem1 {font-size: 0.85rem;}
+    .rem1-15 {font-size: 1.15rem;}
+    .rem1-25 {font-size: 1.25rem;}
+    .rem1-5 {font-size: 1.35rem;}
+    .rem2 {font-size: 1.45rem;}
+    .rem2-25 {font-size: 1.5rem;}
+    .rem2-5 {font-size: 1.65rem;}
+    .rem3 {font-size: 1.75rem;}
+    .rem3-5 {font-size: 1.85rem;}
+    .rem4 {font-size: 2rem;}
+    .rem4-5 {font-size: 2.15rem;}
+    .rem5 {font-size: 2.25rem;}}
+
+@media screen and (max-width: 725px) and (min-width: 425px) {
+    .rem0-5 {font-size: 0.5rem;}
+    .rem0-75 {font-size: 0.65rem;}
+    .rem1 {font-size: 0.75rem;}
+    .rem1-15 {font-size: 0.85rem;}
+    .rem1-25 {font-size: 1.05rem;}
+    .rem1-5 {font-size: 1.15rem;}
+    .rem2 {font-size: 1.25rem;}
+    .rem2-25 {font-size: 1.35rem;}
+    .rem2-5 {font-size: 1.45rem;}
+    .rem3 {font-size: 1.5rem;}
+    .rem3-5 {font-size: 1.65rem;}
+    .rem4 {font-size: 1.75rem;}
+    .rem4-5 {font-size: 1.85rem;}
+    .rem5 {font-size: 2rem;}}
+
+@media screen and (max-width: 425px) and (min-width: 150px) {
+    .rem0-5 {font-size: 0.25rem;}
+    .rem0-75 {font-size: 0.5rem;}
+    .rem1 {font-size: 0.65rem;}
+    .rem1-15 {font-size: 0.75rem;}
+    .rem1-25 {font-size: 0.85rem;}
+    .rem1-5 {font-size: 1rem;}
+    .rem2 {font-size: 1rem;}
+    .rem2-25 {font-size: 1.15rem;}
+    .rem2-5 {font-size: 1.25rem;}
+    .rem3 {font-size: 1.35rem;}
+    .rem3-5 {font-size: 1.5rem;}
+    .rem4 {font-size: 1.65rem;}
+    .rem4-5 {font-size: 1.75rem;}
+    .rem5 {font-size: 1.85rem;}}

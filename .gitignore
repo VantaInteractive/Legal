@@ -1,0 +1,25 @@
+# raccoon production .gitignore file
+# The following will be excluded:
+
+# (testing and development)
+.hintrc
+/.ignore/
+.vscode
+
+# -- Jekyll --
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
+
+# -- Fonts --
+/fonts/BebasNeue/
+/fonts/CascadiaCode/
+/fonts/DMSans/
+/fonts/FAT/
+/fonts/kiloton/
+/fonts/Molot/
+/fonts/Pixeloid/
+/fonts/PlexMono/
+/fonts/TechnaSans-Regular.otf
