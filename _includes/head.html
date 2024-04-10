@@ -1,3 +1,11 @@
+        <meta charset="UTF-8" />
+        <!-- Webpage title -->
+        <title id="home">{{ page.title }}</title>
+        <!-- Website description -->
+        <meta name="description" content="{{ page.description }}">
+        <!-- Viewport width -->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
         <!-- CSS Stylesheets -->
         <link rel="stylesheet" href="{{ site.baseurl }}/css/fonts.css"/>
         <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css"/>
@@ -14,3 +22,24 @@
         <meta name="msapplication-TileColor" content="#9f00a7"> <!-- Win8/10 Tile Icon -->
         <meta name="theme-color" content="#c5c5c5"> <!-- Theme color -->
         <!-- Favicons end -->
+        <meta name="apple-mobile-web-app-title" content="Vanta Interactive">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <!-- Open Graph meta tags -->
+        <meta property="og:title" content="{{ page.title }}">
+        <meta property="og:description" content="{{ page.description }}">
+        <meta property="og:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png{% endif %}">
+        <meta property="og:image:secure" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png{% endif %}">
+        <meta property="og:image:alt" content="{{ page.image_banner_alt}}">
+        <meta property="og:url" content="{{ page.url }}">
+        <meta property="og:type" content="website">
+        <meta property="og:locale" content="{{ page.locale }}">
+        <meta property="og:site_name" content="Legal | Vanta Interactive">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta property="twitter:domain" content="{{ site.baseurl }}/{{ page.lang }}/">
+        <meta property="twitter:url" content="{{ page.url }}">
+        <meta name="twitter:title" content="{{ page.title }}">
+        <meta name="twitter:description" content="{{ page.description }}">
+        <meta name="twitter:image" content="{% if page.image_banner_link %}{{ page.image_banner_link }}{% else %}https://i.ibb.co/5Kfp1jD/VI-Page-Banner.png{% endif %}">
+        <meta name="twitter:site" content="@{{ site.twitter_username }}">

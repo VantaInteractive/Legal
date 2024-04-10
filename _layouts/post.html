@@ -5,22 +5,7 @@ layout: post
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
     <head>
-        <meta charset="UTF-8" />
-        <!-- Webpage title -->
-        <title id="home">{{ page.title }} | Vanta Interactive</title>
-        <!-- Website description -->
-        <meta name="description" content="{{ page.description }}">
-        <!-- Viewport width -->
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-
         {% include head.html %}
-
-        <!-- Open Graph meta tags -->
-        <meta property="og:title" content="{{ page.title }} | Vanta Interactive">
-        <meta property="og:description" content="{{ page.description }}">
-        <meta property="og:image" content="https://raw.githubusercontent.com/vantainteractive/vantainteractive.com/main/favicon/vi-logo-big-bk.png">
-        <meta property="og:url" content="https://legal.vantainteractive.com/en/">
-        <meta property="og:type" content="website">
     </head>
 <body class="bg-header">
         {% include header.html %}
@@ -28,15 +13,24 @@ layout: post
         {% include notice-container.html %}
 
         <div class="post-content post">
-            <header class="post-header">
-                <h1 class="post-title rem2-5 white outfit semibold" itemprop="name headline">{{ page.title }}</h1>
-                <p class="post-meta">
-                <time class="dt-published rem1 white outfit medium" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}
-                </time></p>
-            </header>
-         <div class="post-content lightgray rem1-15 monospace medium">
-               {{ content }}
-           </div>
+            {% if page.toc %}
+                <header class="post-header z-index25" id="post-header">
+                    <details class="toc">
+                        <summary class="post-text monospace rem1-25 lightgray">Table of Contents</summary>
+                        {{ page.toc }}
+                    </details>
+                </header>
+            {% endif %}
+            <div class="post-content lightgray rem1-15 monospace medium">
+            <h1 class="post-title rem2-5 white monospace semibold" itemprop="name headline">{{ page.title }}</h1>
+                 {% if page.date %}
+                     <p class="post-meta">
+                         <time class="dt-published rem1 white monospace medium" datetime="{{ page.date | date: "%Y-%m-%d" }}" itemprop="datePublished">{{ page.date | date: "%B %d, %Y" }}
+                        </time></p>
+                    {% endif %}
+                <p class="post-text rem1-15 monospace medium lightgray">{{ page.description }}</p>
+                {{ content }}
+            </div>
         </div>
 
         {% include footer.html %}

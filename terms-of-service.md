@@ -3,6 +3,7 @@ layout: post
 title: Terms of Service (Website)
 date: 2024-03-24 00:00:00 +0200
 lang: en
+toc: <a class="header-button monospace semibold" href="#landing">Top</a><br><a class="header-button monospace semibold" href="#1-agreement-to-terms">1. Agreement to Terms</a><br><a class="header-button monospace semibold" href="#2-use-license">2. Use License</a><br><a class="header-button monospace semibold" href="#3-disclaimer">3. Disclaimer</a><br><a class="header-button monospace semibold" href="#4-limitations">4. Limitations</a><br><a class="header-button monospace semibold" href="#5-revisions-and-errata">5. Revisions and Errata</a><br><a class="header-button monospace semibold" href="#6-links">6. Links</a><br><a class="header-button monospace semibold" href="#7-modifications">7. Modifications</a><br><a class="header-button monospace semibold" href="#8-governing-law">8. Governing Law</a><br><a class="header-button monospace semibold" href="#9-contact-us">9. Contact Us</a>
 ---
 
 Welcome to the Vanta Interactive website ("Website"). Please read these Terms of Service ("Terms") carefully before using the Website operated by Vanta Interactive.
